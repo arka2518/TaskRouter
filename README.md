@@ -62,10 +62,9 @@ During a session, type `switch` to select another route, `help` to show availabl
 
 ```text
 TaskRouter/
-├── .env                      # Local API keys; never commit this file
+├── .env                      # Local API keys
 ├── .gitignore                # Keeps .env out of Git
 ├── README.md                 # Project documentation
-├── PROJECT_CONTEXT.md        # Detailed project context and implementation status
 ├── brain.py                  # Main terminal loop and provider dispatch
 ├── banner.py                 # Startup banner rendering
 ├── router.py                 # Task selection and command detection
