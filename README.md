@@ -199,6 +199,7 @@ macOS:
 
 ```bash
 touch .env
+nano .env
 ```
 
 Windows PowerShell:
