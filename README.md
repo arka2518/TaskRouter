@@ -18,7 +18,7 @@ TaskRoute gives one terminal interface for three different kinds of work. You ch
   <code>general → Sarvam AI</code>
 </p>
 
-## 1. How it works ?
+## 1. How does it work :
 
 When the project starts, `brain.py` loads the environment variables. `router.py` then asks you to select `coding`, `discussion`, `general`, or `exit`. Your selection determines which provider adapter handles the prompt: Claude for coding, ChatGPT for discussion, or Sarvam AI for general tasks. The selected adapter applies its system prompt and model configuration, sends the request, and returns the response to the terminal. Retryable provider failures use the shared exponential-backoff logic in `error.py`, while configuration, billing, authentication, and invalid-response failures are reported to the user. The conversation continues until you type `switch` to choose another task, `help` to view commands, or `exit` to close the application. Add terminal screenshots to the sections below.
 
