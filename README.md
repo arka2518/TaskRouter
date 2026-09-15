@@ -300,11 +300,3 @@ general: Give me three facts about India.
 | Rate-limit error | Wait, verify provider limits, and allow the built-in retry/backoff logic to finish. |
 | Sarvam provider error | Check `SARVAM_API_KEY`, Sarvam account balance, model availability, and network access. |
 | No network response | Check your internet connection, firewall, VPN, proxy, and provider status. |
-
-### Security reminders
-
-- Keep `.env` out of Git. The repository’s `.gitignore` already excludes it, but verify with `git status` before committing.
-- If a key is exposed, revoke it and create a replacement immediately.
-- Do not lower the safety of your shell or run unknown repository scripts with administrator privileges.
-- Do not commit terminal screenshots that show API keys, private prompts, private data, or account information.
-- Provider names shown to the user describe the selected route. Claude and ChatGPT requests are technically sent through OpenRouter using its OpenAI-compatible API.
