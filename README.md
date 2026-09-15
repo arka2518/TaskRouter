@@ -225,11 +225,14 @@ Do not add quotation marks unless your key specifically requires them. Do not ad
 
 ### Run the application from a terminal
 
+**These are the everyday commands** — only needed after you've completed one-time setup above (clone, venv creation, `pip install`, `.env` configuration). Once that's done, this is all you run each time you want to use TaskRouter.
+
 ⚠️ **Prerequisite:** Complete the "Configure API keys" section above before running the application.
 
 #### macOS
 
 ```bash
+cd TaskRouter
 source .venv/bin/activate
 python3 brain.py
 ```
