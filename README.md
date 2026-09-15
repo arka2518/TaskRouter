@@ -3,8 +3,8 @@
 <p align="center">
   <pre align="center"><code><span style="color:#FFA07A">██████████████</span>
 <span style="color:#FF6600">     ██  ██   ██</span>
-<span style="color:#FF7518">    ██  ██████</span>
-<span style="color:#B7410E">   ██  ██ ██</span>
+<span style="color:#FF7518">     ██  ██████</span>
+<span style="color:#B7410E">    ██  ██ ██</span>
 <span style="color:#8B3A00">    ██  ██  ██</span></code></pre>
 </p>
 
