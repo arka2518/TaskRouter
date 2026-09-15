@@ -291,15 +291,3 @@ coding: Write a Python function that adds two numbers.
 discussion: What are the advantages of modular software design?
 general: Give me three facts about India.
 ```
-
-### Troubleshooting checklist
-
-| Symptom | Check |
-|---|---|
-| `ModuleNotFoundError` | Activate `.venv` and run the dependency install command again. |
-| `cannot import name ... from banner` | Confirm the local `banner.py` contains `print_startup_banner()` and that you are running from the project directory. |
-| Missing API-key error | Confirm `.env` is in the project root, the variable names are exact, and the virtual environment is active. |
-| OpenRouter `402` error | Check account credits and reduce `CODING_MAX_TOKENS` or `DISCUSSION_MAX_TOKENS` in `config.py`. |
-| Rate-limit error | Wait, verify provider limits, and allow the built-in retry/backoff logic to finish. |
-| Sarvam provider error | Check `SARVAM_API_KEY`, Sarvam account balance, model availability, and network access. |
-| No network response | Check your internet connection, firewall, VPN, proxy, and provider status. |
