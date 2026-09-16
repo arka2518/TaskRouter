@@ -1,4 +1,4 @@
-"""Interactive terminal loop for TaskRoute."""
+"""Interactive terminal loop for TaskRouter."""
 from pathlib import Path
 from dotenv import load_dotenv
 from error import ProviderError
