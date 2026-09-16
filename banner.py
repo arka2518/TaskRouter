@@ -25,7 +25,7 @@ def _build_logo() -> Text:
 
 def _build_info(version: str, active_provider: str, about: str) -> Text:
     info = Text()
-    info.append(f"TaskRoute CLI {version}\n", style="bold white")
+    info.append(f"TaskRouter CLI {version}\n", style="bold white")
     info.append(f"{active_provider} \n{about}\n", style="dim white")
     return info
 
