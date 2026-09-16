@@ -1,4 +1,4 @@
-"""Central configuration constants for TaskRoute."""
+"""Central configuration constants for TaskRouter."""
 
 # Retry / timeout settings
 # Coding gets more retry attempts because coding requests are usually longer
