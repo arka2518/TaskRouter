@@ -10,7 +10,7 @@
 
 <p align="center"><strong>A terminal-based multi-provider AI router</strong></p>
 
-TaskRoute gives one terminal interface for three different kinds of work. You choose a task type manually, and TaskRoute sends the prompt to the provider configured for that route.
+TaskRouter gives one terminal interface for three different kinds of work. You choose a task type manually, and TaskRouter sends the prompt to the provider configured for that route.
 
 <p align="center">
   <code>coding → Claude</code> &nbsp;•&nbsp;
