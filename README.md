@@ -77,6 +77,11 @@ TaskRouter/
     └── sarvamai.py           # General adapter: Sarvam AI
 ```
 
+### Workflow of TaskRouter
+
+![Workflow](docs/images/diagram.png)
+
+
 ### File responsibilities
 
 | File | Responsibility | Important behavior |
