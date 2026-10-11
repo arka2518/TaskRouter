@@ -6,8 +6,7 @@ from Providers import chatgpt, claude, sarvamai
 from banner import print_startup_banner
 import router
 
-# Load environment variables once for the application. Provider modules also
-# support standalone use, but the application owns configuration loading here.
+# Load environment variables once for the application
 load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 
 ROUTES = {"coding": claude,
